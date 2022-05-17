@@ -1,0 +1,12 @@
+{
+  "name": "car-game",
+  "version": "1.0.0",
+  "homepage": "https://vitalyreutsky.github.io/car-game",
+  "scripts": {
+     "deploy": "gh-pages -d app"
+  },
+  "author": "Vitaly Reutsky",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
