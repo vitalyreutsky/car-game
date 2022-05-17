@@ -72,6 +72,9 @@ body {
   width: 60px;
 }
 
+.btn-play {
+  display: none;
+}
 .game-button:hover {
   transform: scale(1.1);
 }
