@@ -1,0 +1,133 @@
+body {
+  background: #6c7b2a;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.road {
+  background-color: #817f84;
+  width: 300px;
+  height: 100vh;
+}
+
+.car {
+  position: absolute;
+  bottom: 0;
+  width: 80px;
+}
+
+.tree {
+  width: 250px;
+  position: absolute;
+}
+
+.tree1 {
+  transform: translate(-250px, -10vh);
+}
+
+.tree2 {
+  transform: translate(-220px, 30vh);
+}
+
+.tree3 {
+  transform: translate(-270px, 70vh);
+}
+
+.tree4 {
+  transform: translate(240px, -5vh);
+}
+
+.tree5 {
+  transform: translate(200px, 40vh);
+}
+
+.tree6 {
+  transform: translate(210px, 80vh);
+}
+
+.game-button {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
+}
+
+.game-button img {
+  width: 60px;
+}
+
+.btn-play {
+  display: none;
+}
+.game-button:hover {
+  transform: scale(1.1);
+}
+
+.danger {
+  position: absolute;
+  width: 80px;
+}
+
+.coin {
+  position: absolute;
+  width: 50px;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+}
+
+@media (max-width: 500px) {
+  .road {
+    width: 200px;
+  }
+
+  .car {
+    width: 50px;
+  }
+
+  .tree {
+    width: 150px;
+  }
+
+  .tree1 {
+    transform: translate(-140px, 5vh);
+  }
+
+  .tree2 {
+    transform: translate(-120px, 30vh);
+  }
+
+  .tree3 {
+    transform: translate(-130px, 70vh);
+  }
+
+  .tree4 {
+    transform: translate(140px, -5vh);
+  }
+
+  .tree5 {
+    transform: translate(180px, 40vh);
+  }
+
+  .tree6 {
+    transform: translate(170px, 80vh);
+  }
+}
