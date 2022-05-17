@@ -28,36 +28,31 @@ body {
 }
 
 .tree {
+  width: 250px;
   position: absolute;
 }
 
 .tree1 {
-  width: 250px;
   transform: translate(-250px, -10vh);
 }
 
 .tree2 {
-  width: 250px;
   transform: translate(-220px, 30vh);
 }
 
 .tree3 {
-  width: 250px;
   transform: translate(-270px, 70vh);
 }
 
 .tree4 {
-  width: 250px;
   transform: translate(240px, -5vh);
 }
 
 .tree5 {
-  width: 250px;
   transform: translate(200px, 40vh);
 }
 
 .tree6 {
-  width: 250px;
   transform: translate(210px, 80vh);
 }
 
@@ -94,4 +89,42 @@ body {
 .arrow {
   position: absolute;
   width: 50px;
+}
+
+@media (max-width: 500px) {
+  .road {
+    width: 200px;
+  }
+
+  .car {
+    width: 50px;
+  }
+
+  .tree {
+    width: 150px;
+  }
+
+  .tree1 {
+    transform: translate(-140px, 5vh);
+  }
+
+  .tree2 {
+    transform: translate(-120px, 30vh);
+  }
+
+  .tree3 {
+    transform: translate(-130px, 70vh);
+  }
+
+  .tree4 {
+    transform: translate(140px, -5vh);
+  }
+
+  .tree5 {
+    transform: translate(180px, 40vh);
+  }
+
+  .tree6 {
+    transform: translate(170px, 80vh);
+  }
 }
